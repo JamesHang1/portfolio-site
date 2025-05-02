@@ -1,0 +1,254 @@
+{
+    "header": "Marvel Rivals Heroes",
+    "logo": "/images/marvel-rivals/marvel_rivals_logo.png",
+    "roles": [
+        {
+            "id": "vanguard",
+            "roleIcon": null,
+            "displayNameSingular": "Vanguard Hero",
+            "displayNamePlural": "Vanguard Heroes"
+        },
+        {
+            "id": "duelist",
+            "roleIcon": null,
+            "displayNameSingular": "Duelist Hero",
+            "displayNamePlural": "Duelist Heroes"
+        },
+        {
+            "id": "strategist",
+            "roleIcon": null,
+            "displayNameSingular": "Strategist Hero",
+            "displayNamePlural": "Strategist Heroes"
+        }
+    ],
+    "characters": [
+        {
+            "name": "Adam Warlock",
+            "role": "strategist",
+            "iconSrc": "/images/marvel-rivals/icon/adam_warlock.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/adam_warlock.png"
+        },
+        {
+            "name": "Black Panther",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/black_panther.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/black_panther.png"
+        },
+        {
+            "name": "Black Widow",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/black_widow.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/black_widow.png"
+        },
+        {
+            "name": "Captain America",
+            "role": "vanguard",
+            "iconSrc": "/images/marvel-rivals/icon/captain_america.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/captain_america.png"
+        },
+        {
+            "name": "Cloak & Dagger",
+            "role": "strategist",
+            "iconSrc": "/images/marvel-rivals/icon/cloak_dagger.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/cloak_dagger.png"
+        },
+        {
+            "name": "Doctor Strange",
+            "role": "vanguard",
+            "iconSrc": "/images/marvel-rivals/icon/doctor_strange.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/doctor_strange.png"
+        },
+        {
+            "name": "Emma Frost",
+            "role": "vanguard",
+            "iconSrc": "/images/marvel-rivals/icon/emma_frost.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/emma_frost.png"
+        },
+        {
+            "name": "Groot",
+            "role": "vanguard",
+            "iconSrc": "/images/marvel-rivals/icon/groot.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/groot.png"
+        },
+        {
+            "name": "Hawkeye",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/hawkeye.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/hawkeye.png"
+        },
+        {
+            "name": "Hela",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/hela.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/hela.png"
+        },
+        {
+            "name": "Hulk",
+            "role": "vanguard",
+            "iconSrc": "/images/marvel-rivals/icon/hulk.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/hulk.png"
+        },
+        {
+            "name": "Human Torch",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/human_torch.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/human_torch.png"
+        },
+        {
+            "name": "Invisible Woman",
+            "role": "strategist",
+            "iconSrc": "/images/marvel-rivals/icon/invisible_woman.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/invisible_woman.png"
+        },
+        {
+            "name": "Iron Fist",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/iron_fist.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/iron_fist.png"
+        },
+        {
+            "name": "Iron Man",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/iron_man.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/iron_man.png"
+        },
+        {
+            "name": "Jeff, The Land Shark",
+            "role": "strategist",
+            "iconSrc": "/images/marvel-rivals/icon/jeff.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/jeff.png"
+        },
+        {
+            "name": "Loki",
+            "role": "strategist",
+            "iconSrc": "/images/marvel-rivals/icon/loki.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/loki.png"
+        },
+        {
+            "name": "Luna Snow",
+            "role": "strategist",
+            "iconSrc": "/images/marvel-rivals/icon/luna_snow.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/luna_snow.png"
+        },
+        {
+            "name": "Magik",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/magik.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/magik.png"
+        },
+        {
+            "name": "Magneto",
+            "role": "vanguard",
+            "iconSrc": "/images/marvel-rivals/icon/magneto.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/magneto.png"
+        },
+        {
+            "name": "Mantis",
+            "role": "strategist",
+            "iconSrc": "/images/marvel-rivals/icon/mantis.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/mantis.png"
+        },
+        {
+            "name": "Mister Fantastic",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/mister_fantastic.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/mister_fantastic.png"
+        },
+        {
+            "name": "Moon Knight",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/moon_knight.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/moon_knight.png"
+        },
+        {
+            "name": "Namor",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/namor.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/namor.png"
+        },
+        {
+            "name": "Peni Parker",
+            "role": "vanguard",
+            "iconSrc": "/images/marvel-rivals/icon/peni_parker.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/peni_parker.png"
+        },
+        {
+            "name": "Psylocke",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/psylocke.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/psylocke.png"
+        },
+        {
+            "name": "The Punisher",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/punisher.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/punisher.png"
+        },
+        {
+            "name": "Rocket Raccoon",
+            "role": "strategist",
+            "iconSrc": "/images/marvel-rivals/icon/rocket_raccoon.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/rocket_raccoon.png"
+        },
+        {
+            "name": "Scarlet Witch",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/scarlet_witch.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/scarlet_witch.png"
+        },
+        {
+            "name": "Spider Man",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/spider_man.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/spider_man.png"
+        },
+        {
+            "name": "Squirrel Girl",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/squirrel_girl.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/squirrel_girl.png"
+        },
+        {
+            "name": "Star-Lord",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/star_lord.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/star_lord.png"
+        },
+        {
+            "name": "Storm",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/storm.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/storm.png"
+        },
+        {
+            "name": "The Thing",
+            "role": "vanguard",
+            "iconSrc": "/images/marvel-rivals/icon/thing.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/thing.png"
+        },
+        {
+            "name": "Thor",
+            "role": "vanguard",
+            "iconSrc": "/images/marvel-rivals/icon/thor.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/thor.png"
+        },
+        {
+            "name": "Venom",
+            "role": "vanguard",
+            "iconSrc": "/images/marvel-rivals/icon/venom.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/venom.png"
+        },
+        {
+            "name": "Winter Soldier",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/winter_soldier.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/winter_soldier.png"
+        },
+        {
+            "name": "Wolverine",
+            "role": "duelist",
+            "iconSrc": "/images/marvel-rivals/icon/wolverine.png",
+            "portraitSrc": "/images/marvel-rivals/portrait/wolverine.png"
+        }
+    ]
+}

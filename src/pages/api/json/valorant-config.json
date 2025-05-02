@@ -1,0 +1,194 @@
+{
+    "header": "Valorant Agents",
+    "logo": "/images/valorant/valorant_logo.webp",
+    "roles": [
+        {
+            "id": "controller",
+            "roleIcon": "/images/valorant/controller_icon.webp",
+            "displayNameSingular": "Controller Class Agent",
+            "displayNamePlural": "Controller Class Agents"
+        },
+        {
+            "id": "duelist",
+            "roleIcon": "/images/valorant/duelist_icon.webp",
+            "displayNameSingular": "Duelist Class Agent",
+            "displayNamePlural": "Duelist Class Agents"
+        },
+        {
+            "id": "initiator",
+            "roleIcon": "/images/valorant/initiator_icon.webp",
+            "displayNameSingular": "Initiator Class Agent",
+            "displayNamePlural": "Initiator Class Agents"
+        },
+        {
+            "id": "sentinel",
+            "roleIcon": "/images/valorant/sentinel_icon.webp",
+            "displayNameSingular": "Sentinel Class Agent",
+            "displayNamePlural": "Sentinel Class Agents"
+        }
+    ],
+    "characters": [
+        {
+            "name": "Astra",
+            "role": "controller",
+            "iconSrc": "/images/valorant/icon/astra.webp",
+            "portraitSrc": "/images/valorant/portrait/astra.avif"
+        },
+        {
+            "name": "Breach",
+            "role": "initiator",
+            "iconSrc": "/images/valorant/icon/breach.webp",
+            "portraitSrc": "/images/valorant/portrait/breach.avif"
+        },
+        {
+            "name": "Brimstone",
+            "role": "controller",
+            "iconSrc": "/images/valorant/icon/brimstone.webp",
+            "portraitSrc": "/images/valorant/portrait/brimstone.avif"
+        },
+        {
+            "name": "Chamber",
+            "role": "sentinel",
+            "iconSrc": "/images/valorant/icon/chamber.webp",
+            "portraitSrc": "/images/valorant/portrait/chamber.webp"
+        },
+        {
+            "name": "Clove",
+            "role": "controller",
+            "iconSrc": "/images/valorant/icon/clove.webp",
+            "portraitSrc": "/images/valorant/portrait/clove.avif"
+        },
+        {
+            "name": "Cypher",
+            "role": "sentinel",
+            "iconSrc": "/images/valorant/icon/cypher.webp",
+            "portraitSrc": "/images/valorant/portrait/cypher.avif"
+        },
+        {
+            "name": "Deadlock",
+            "role": "sentinel",
+            "iconSrc": "/images/valorant/icon/deadlock.webp",
+            "portraitSrc": "/images/valorant/portrait/deadlock.avif"
+        },
+        {
+            "name": "Fade",
+            "role": "initiator",
+            "iconSrc": "/images/valorant/icon/fade.webp",
+            "portraitSrc": "/images/valorant/portrait/fade.avif"
+        },
+        {
+            "name": "Gekko",
+            "role": "initiator",
+            "iconSrc": "/images/valorant/icon/gekko.webp",
+            "portraitSrc": "/images/valorant/portrait/gekko.avif"
+        },
+        {
+            "name": "Harbor",
+            "role": "controller",
+            "iconSrc": "/images/valorant/icon/harbor.webp",
+            "portraitSrc": "/images/valorant/portrait/harbor.avif"
+        },
+        {
+            "name": "Iso",
+            "role": "duelist",
+            "iconSrc": "/images/valorant/icon/iso.webp",
+            "portraitSrc": "/images/valorant/portrait/iso.avif"
+        },
+        {
+            "name": "Jett",
+            "role": "duelist",
+            "iconSrc": "/images/valorant/icon/jett.webp",
+            "portraitSrc": "/images/valorant/portrait/jett.avif"
+        },
+        {
+            "name": "KAY/O",
+            "role": "initiator",
+            "iconSrc": "/images/valorant/icon/kayo.webp",
+            "portraitSrc": "/images/valorant/portrait/kayo.avif"
+        },
+        {
+            "name": "Killjoy",
+            "role": "sentinel",
+            "iconSrc": "/images/valorant/icon/killjoy.webp",
+            "portraitSrc": "/images/valorant/portrait/killjoy.avif"
+        },
+        {
+            "name": "Neon",
+            "role": "duelist",
+            "iconSrc": "/images/valorant/icon/neon.webp",
+            "portraitSrc": "/images/valorant/portrait/neon.avif"
+        },
+        {
+            "name": "Omen",
+            "role": "controller",
+            "iconSrc": "/images/valorant/icon/omen.webp",
+            "portraitSrc": "/images/valorant/portrait/omen.avif"
+        },
+        {
+            "name": "Phoenix",
+            "role": "duelist",
+            "iconSrc": "/images/valorant/icon/phoenix.webp",
+            "portraitSrc": "/images/valorant/portrait/phoenix.avif"
+        },
+        {
+            "name": "Raze",
+            "role": "duelist",
+            "iconSrc": "/images/valorant/icon/raze.webp",
+            "portraitSrc": "/images/valorant/portrait/raze.avif"
+        },
+        {
+            "name": "Reyna",
+            "role": "duelist",
+            "iconSrc": "/images/valorant/icon/reyna.webp",
+            "portraitSrc": "/images/valorant/portrait/reyna.avif"
+        },
+        {
+            "name": "Sage",
+            "role": "sentinel",
+            "iconSrc": "/images/valorant/icon/sage.webp",
+            "portraitSrc": "/images/valorant/portrait/sage.avif"
+        },
+        {
+            "name": "Skye",
+            "role": "initiator",
+            "iconSrc": "/images/valorant/icon/skye.webp",
+            "portraitSrc": "/images/valorant/portrait/skye.avif"
+        },
+        {
+            "name": "Sova",
+            "role": "initiator",
+            "iconSrc": "/images/valorant/icon/sova.webp",
+            "portraitSrc": "/images/valorant/portrait/sova.avif"
+        },
+        {
+            "name": "Tejo",
+            "role": "initiator",
+            "iconSrc": "/images/valorant/icon/tejo.webp",
+            "portraitSrc": "/images/valorant/portrait/tejo.avif"
+        },
+        {
+            "name": "Viper",
+            "role": "controller",
+            "iconSrc": "/images/valorant/icon/viper.webp",
+            "portraitSrc": "/images/valorant/portrait/viper.avif"
+        },
+        {
+            "name": "Vyse",
+            "role": "sentinel",
+            "iconSrc": "/images/valorant/icon/vyse.webp",
+            "portraitSrc": "/images/valorant/portrait/vyse.avif"
+        },
+        {
+            "name": "Waylay",
+            "role": "duelist",
+            "iconSrc": "/images/valorant/icon/waylay.webp",
+            "portraitSrc": "/images/valorant/portrait/waylay.avif"
+        },
+        {
+            "name": "Yoru",
+            "role": "duelist",
+            "iconSrc": "/images/valorant/icon/yoru.webp",
+            "portraitSrc": "/images/valorant/portrait/yoru.webp"
+        }
+    ]
+}

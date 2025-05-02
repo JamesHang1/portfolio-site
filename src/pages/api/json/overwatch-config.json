@@ -1,0 +1,929 @@
+{
+    "header": "Overwatch Heroes",
+    "logo": "/images/overwatch/overwatch_logo.png",
+    "roles": [
+        {
+            "id": "tank",
+            "roleIcon": null,
+            "displayNameSingular": "Tank Hero",
+            "displayNamePlural": "Tank Heroes"
+        },
+        {
+            "id": "damage",
+            "roleIcon": null,
+            "displayNameSingular": "Damage Hero",
+            "displayNamePlural": "Damage Heroes"
+        },
+        {
+            "id": "support",
+            "roleIcon": null,
+            "displayNameSingular": "Support Hero",
+            "displayNamePlural": "Support Heroes"
+        }
+    ],
+    "characters": [
+        {
+            "name": "D.Va",
+            "role": "tank",
+            "iconSrc": "/images/overwatch/icon/dva.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Doomfist",
+            "role": "tank",
+            "iconSrc": "/images/overwatch/icon/doomfist.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hazard",
+            "role": "tank",
+            "iconSrc": "/images/overwatch/icon/hazard.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Junker Queen",
+            "role": "tank",
+            "iconSrc": "/images/overwatch/icon/junker_queen.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mauga",
+            "role": "tank",
+            "iconSrc": "/images/overwatch/icon/mauga.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Orisa",
+            "role": "tank",
+            "iconSrc": "/images/overwatch/icon/orisa.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ramattra",
+            "role": "tank",
+            "iconSrc": "/images/overwatch/icon/ramattra.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Reinhardt",
+            "role": "tank",
+            "iconSrc": "/images/overwatch/icon/reinhardt.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Roadhog",
+            "role": "tank",
+            "iconSrc": "/images/overwatch/icon/roadhog.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sigma",
+            "role": "tank",
+            "iconSrc": "/images/overwatch/icon/sigma.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Winston",
+            "role": "tank",
+            "iconSrc": "/images/overwatch/icon/winston.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wrecking Ball",
+            "role": "tank",
+            "iconSrc": "/images/overwatch/icon/wrecking_ball.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Zarya",
+            "role": "tank",
+            "iconSrc": "/images/overwatch/icon/zarya.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ashe",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/ashe.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bastion",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/bastion.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cassidy",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/cassidy.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Echo",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/echo.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Freja",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/freja.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Genji",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/genji.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hanzo",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/hanzo.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Junkrat",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/junkrat.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mei",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/mei.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pharah",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/pharah.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Reaper",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/reaper.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sojourn",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/sojourn.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Soldier: 76",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/soldier_76.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sombra",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/sombra.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Symmetra",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/symmetra.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Torbjörn",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/torbjorn.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tracer",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/tracer.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Venture",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/venture.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Widowmaker",
+            "role": "damage",
+            "iconSrc": "/images/overwatch/icon/widowmaker.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ana",
+            "role": "support",
+            "iconSrc": "/images/overwatch/icon/ana.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Baptiste",
+            "role": "support",
+            "iconSrc": "/images/overwatch/icon/baptiste.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Brigitte",
+            "role": "support",
+            "iconSrc": "/images/overwatch/icon/brigitte.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Illari",
+            "role": "support",
+            "iconSrc": "/images/overwatch/icon/illari.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Juno",
+            "role": "support",
+            "iconSrc": "/images/overwatch/icon/juno.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kiriko",
+            "role": "support",
+            "iconSrc": "/images/overwatch/icon/kiriko.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lifeweaver",
+            "role": "support",
+            "iconSrc": "/images/overwatch/icon/lifeweaver.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lucio",
+            "role": "support",
+            "iconSrc": "/images/overwatch/icon/lucio.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mercy",
+            "role": "support",
+            "iconSrc": "/images/overwatch/icon/mercy.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Moira",
+            "role": "support",
+            "iconSrc": "/images/overwatch/icon/moira.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Zenyatta",
+            "role": "support",
+            "iconSrc": "/images/overwatch/icon/zenyatta.png",
+            "perks": [
+                {
+                    "level": 2,
+                    "options": [
+                        "level 2 perk - left",
+                        "level 2 perk - right"
+                    ]
+                },
+                {
+                    "level": 3,
+                    "options": [
+                        "level 3 perk - left",
+                        "level 3 perk - right"
+                    ]
+                }
+            ]
+        }
+    ]
+}

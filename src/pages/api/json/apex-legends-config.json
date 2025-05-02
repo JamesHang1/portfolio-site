@@ -1,0 +1,200 @@
+{
+    "header": "Apex Legend Legends",
+    "logo": "/images/apex-legends/apex_legends_logo.png",
+    "roles": [
+        {
+            "id": "assault",
+            "roleIcon": null,
+            "displayNameSingular": "Assault Class Legend",
+            "displayNamePlural": "Assault Class Legends"
+        },
+        {
+            "id": "skirmisher",
+            "roleIcon": null,
+            "displayNameSingular": "Skirmisher Class Legend",
+            "displayNamePlural": "Skirmisher Class Legends"
+        },
+        {
+            "id": "recon",
+            "roleIcon": null,
+            "displayNameSingular": "Recon Class Legend",
+            "displayNamePlural": "Recon Class Legends"
+        },
+        {
+            "id": "controller",
+            "roleIcon": null,
+            "displayNameSingular": "Controller Class Legend",
+            "displayNamePlural": "Controller Class Legends"
+        },
+        {
+            "id": "support",
+            "roleIcon": null,
+            "displayNameSingular": "Support Class Legend",
+            "displayNamePlural": "Support Class Legends"
+        }
+    ],
+    "characters": [
+        {
+            "name": "Alter",
+            "role": "skirmisher",
+            "iconSrc": "/images/apex-legends/icon/alter.png",
+            "portraitSrc": "/images/apex-legends/portrait/alter.avif"
+        },
+        {
+            "name": "Ash",
+            "role": "assault",
+            "iconSrc": "/images/apex-legends/icon/ash.png",
+            "portraitSrc": "/images/apex-legends/portrait/ash.avif"
+        },
+        {
+            "name": "Ballistic",
+            "role": "assault",
+            "iconSrc": "/images/apex-legends/icon/ballistic.png",
+            "portraitSrc": "/images/apex-legends/portrait/ballistic.avif"
+        },
+        {
+            "name": "Bangalore",
+            "role": "assault",
+            "iconSrc": "/images/apex-legends/icon/bangalore.png",
+            "portraitSrc": "/images/apex-legends/portrait/bangalore.avif"
+        },
+        {
+            "name": "Bloodhound",
+            "role": "recon",
+            "iconSrc": "/images/apex-legends/icon/bloodhound.png",
+            "portraitSrc": "/images/apex-legends/portrait/bloodhound.avif"
+        },
+        {
+            "name": "Catalyst",
+            "role": "controller",
+            "iconSrc": "/images/apex-legends/icon/catalyst.png",
+            "portraitSrc": "/images/apex-legends/portrait/catalyst.avif"
+        },
+        {
+            "name": "Caustic",
+            "role": "controller",
+            "iconSrc": "/images/apex-legends/icon/caustic.png",
+            "portraitSrc": "/images/apex-legends/portrait/caustic.avif"
+        },
+        {
+            "name": "Conduit",
+            "role": "support",
+            "iconSrc": "/images/apex-legends/icon/conduit.png",
+            "portraitSrc": "/images/apex-legends/portrait/conduit.avif"
+        },
+        {
+            "name": "Crypto",
+            "role": "recon",
+            "iconSrc": "/images/apex-legends/icon/crypto.png",
+            "portraitSrc": "/images/apex-legends/portrait/crypto.avif"
+        },
+        {
+            "name": "Fuse",
+            "role": "assault",
+            "iconSrc": "/images/apex-legends/icon/fuse.png",
+            "portraitSrc": "/images/apex-legends/portrait/fuse.avif"
+        },
+        {
+            "name": "Gibraltar",
+            "role": "support",
+            "iconSrc": "/images/apex-legends/icon/gibraltar.png",
+            "portraitSrc": "/images/apex-legends/portrait/gibraltar.avif"
+        },
+        {
+            "name": "Horizon",
+            "role": "skirmisher",
+            "iconSrc": "/images/apex-legends/icon/horizon.png",
+            "portraitSrc": "/images/apex-legends/portrait/horizon.avif"
+        },
+        {
+            "name": "Lifeline",
+            "role": "support",
+            "iconSrc": "/images/apex-legends/icon/lifeline.png",
+            "portraitSrc": "/images/apex-legends/portrait/lifeline.avif"
+        },
+        {
+            "name": "Loba",
+            "role": "support",
+            "iconSrc": "/images/apex-legends/icon/loba.png",
+            "portraitSrc": "/images/apex-legends/portrait/loba.avif"
+        },
+        {
+            "name": "Mad Maggie",
+            "role": "assault",
+            "iconSrc": "/images/apex-legends/icon/mad_maggie.png",
+            "portraitSrc": "/images/apex-legends/portrait/mad_maggie.avif"
+        },
+        {
+            "name": "Mirage",
+            "role": "support",
+            "iconSrc": "/images/apex-legends/icon/mirage.png",
+            "portraitSrc": "/images/apex-legends/portrait/mirage.avif"
+        },
+        {
+            "name": "Newcastle",
+            "role": "support",
+            "iconSrc": "/images/apex-legends/icon/newcastle.png",
+            "portraitSrc": "/images/apex-legends/portrait/newcastle.avif"
+        },
+        {
+            "name": "Octane",
+            "role": "skirmisher",
+            "iconSrc": "/images/apex-legends/icon/octane.png",
+            "portraitSrc": "/images/apex-legends/portrait/octane.avif"
+        },
+        {
+            "name": "Pathfinder",
+            "role": "skirmisher",
+            "iconSrc": "/images/apex-legends/icon/pathfinder.png",
+            "portraitSrc": "/images/apex-legends/portrait/pathfinder.avif"
+        },
+        {
+            "name": "Rampart",
+            "role": "controller",
+            "iconSrc": "/images/apex-legends/icon/rampart.png",
+            "portraitSrc": "/images/apex-legends/portrait/rampart.avif"
+        },
+        {
+            "name": "Revenant",
+            "role": "skirmisher",
+            "iconSrc": "/images/apex-legends/icon/revenant.png",
+            "portraitSrc": "/images/apex-legends/portrait/revenant.avif"
+        },
+        {
+            "name": "Seer",
+            "role": "recon",
+            "iconSrc": "/images/apex-legends/icon/seer.png",
+            "portraitSrc": "/images/apex-legends/portrait/seer.avif"
+        },
+        {
+            "name": "Sparrow",
+            "role": "recon",
+            "iconSrc": "/images/apex-legends/icon/sparrow.png",
+            "portraitSrc": "/images/apex-legends/portrait/sparrow.avif"
+        },
+        {
+            "name": "Valkyrie",
+            "role": "recon",
+            "iconSrc": "/images/apex-legends/icon/valkyrie.png",
+            "portraitSrc": "/images/apex-legends/portrait/valkyrie.avif"
+        },
+        {
+            "name": "Vantage",
+            "role": "recon",
+            "iconSrc": "/images/apex-legends/icon/vantage.png",
+            "portraitSrc": "/images/apex-legends/portrait/vantage.avif"
+        },
+        {
+            "name": "Wattson",
+            "role": "controller",
+            "iconSrc": "/images/apex-legends/icon/wattson.png",
+            "portraitSrc": "/images/apex-legends/portrait/wattson.avif"
+        },
+        {
+            "name": "Wraith",
+            "role": "skirmisher",
+            "iconSrc": "/images/apex-legends/icon/wraith.png",
+            "portraitSrc": "/images/apex-legends/portrait/wraith.avif"
+        }
+    ]
+}
