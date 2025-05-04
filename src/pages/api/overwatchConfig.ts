@@ -23,5 +23,5 @@ export default function handler(
     config = valorantConfig;
   }
 
-  setTimeout(() => res.status(200).json(config), 500);
+  setTimeout(() => res.status(200).json(config), 1000);
 }
