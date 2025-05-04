@@ -7,6 +7,7 @@ import HeroRosterList from "@rhp/components/HeroRosterList";
 import HeroHistory from "@rhp/components/HeroHistory";
 import ActiveHero from "@rhp/components/ActiveHero";
 import { Characters, Roles } from "@/src/globals/types";
+import Header from "./Header";
 
 const configsList = [
     'Overwatch',
@@ -82,27 +83,32 @@ const RandomHeroPickerApp = () => {
 
     return (
         <main className="mx-auto p-4 w-full xl:w-7xl">
-            <h1 className="p-8 pb-1 text-4xl font-bold flex justify-center">Random Overwatch Hero</h1>
-            <div className="mb-8 text-bold text-xl text-center">
+            <Header />
+            <div className="mb-8 text-bold text-xl text-center text-sky-500">
                 {configsList.map((configLink, index) => <a className="not-last:pr-4 hocus:cursor-pointer hocus:underline" key={configLink + index} href={'/random-hero-picker?config=' + configLink.replaceAll(' ', '').toLowerCase()}>{configLink}</a>)}
             </div>
-            <div className="flex flex-row items-start gap-8">
-                <div className="w-1/2 md:w-1/4">
-                    <ActiveHero />
-                    <button className="bg-black border-white hover:bg-blue-950 text-white border-2 rounded-s hover:border-gray-500 transition-all py-4 px-6 my-8 font-bold text-2xl" onClick={getRandomHero}>Get Random Hero</button>
-                    <div>
-                        <strong>Max Repeat Count:</strong> {maxHeroRepeat}
-                        <div className="flex flex-row gap-x-2">
-                            <button className="bg-black border-white hover:bg-blue-950 text-white border-2 rounded-s hover:border-gray-500 transition-all p-2" onClick={() => updateMaxHeroRepeat()}>&#9650;</button>
-                            <button className="bg-black border-white hover:bg-blue-950 text-white border-2 rounded-s hover:border-gray-500 transition-all p-2" onClick={() => updateMaxHeroRepeat(true)}>&#9660;</button>
+            {rosters && heroHistory.length
+                ? (
+                    <div className="flex flex-col sm:flex-row items-start justify-center gap-4 md:gap-6 lg:gap-8">
+                        <div className="md:w-1/4">
+                            <ActiveHero />
+                            <button className="bg-black border-white hover:bg-blue-950 text-white border-2 rounded-s hover:border-gray-500 transition-all py-4 px-6 my-8 font-bold text-2xl" onClick={getRandomHero}>Get Random Hero</button>
+                            <div>
+                                <strong>Max Repeat Count:</strong> {maxHeroRepeat}
+                                <div className="flex flex-row gap-x-2">
+                                    <button className="bg-black border-white hover:bg-blue-950 text-white border-2 rounded-s hover:border-gray-500 transition-all p-2" onClick={() => updateMaxHeroRepeat()}>&#9650;</button>
+                                    <button className="bg-black border-white hover:bg-blue-950 text-white border-2 rounded-s hover:border-gray-500 transition-all p-2" onClick={() => updateMaxHeroRepeat(true)}>&#9660;</button>
+                                </div>
+                            </div>
+                            <HeroHistory className="mt-4" />
+                        </div>
+                        <div className="flex flex-col gap-8 justify-center shrink-0 md:w-3/4">
+                            {rosters.map((roleRoster, index) => <HeroRosterList key={roleRoster[0].role + index} roster={roleRoster} />)}
                         </div>
                     </div>
-                    <HeroHistory className="mt-4" />
-                </div>
-                <div className="flex flex-col gap-8 justify-center w-1/2 md:w-3/4">
-                    {rosters && rosters.map((roleRoster, index) => <HeroRosterList key={roleRoster[0].role + index} roster={roleRoster} />)}
-                </div>
-            </div>
+                )
+                : <div className="fixed top-1/2 left-1/2 -translate-10 w-20 h-20 border-[16px] border-l-black/0 rounded-full z-50 animate-spin" aria-label="Loading" />
+            }
         </main>
     )
 }

@@ -16,7 +16,7 @@ export default function HeroRosterList({ roster }: { roster: Roster[] }) {
     const roles: Roles = state.roles;
 
     const role = roster[0].role;
-    const roleConfig = roles.find(({ id: roleId }) => roleId === role)
+    const roleConfig = roles.find(({ id: roleId }) => roleId === role);
 
     return (
         <div>
@@ -42,7 +42,7 @@ export default function HeroRosterList({ roster }: { roster: Roster[] }) {
                     </button>
                 </div>
             </div>
-            <ul className="max-md:flex max-md:flex-wrap md:grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 md:gap-4">
+            <ul className="max-sm:flex max-sm:flex-wrap sm:grid sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-4">
                 {roster.map((heroProps) => (
                     <li key={heroProps.name} className="">
                         <HeroImage {...heroProps} />
