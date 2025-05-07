@@ -1,5 +1,6 @@
 import { Action, ActiveHeroes, Characters, Roles, HeroState as State } from '@@/globals/types';
 import StateActions from './actions';
+import GenericUtils from '@/src/globals/genericUtils';
 
 export const INITIAL_STATE: State = {
   characters: [],
@@ -21,18 +22,22 @@ const StateReducers = (state: State, action: Action) => {
         characters: Characters,
         roles: Roles
       } = action.config
-
+      
       const activeHeroes: ActiveHeroes = {};
       characters.forEach(({ name }: { name: string }) => {
         activeHeroes[name] = true;
       });
 
+      const randomHero = characters[GenericUtils.getRandomInt(0, characters.length - 1)].name;
+      const heroHistory = [randomHero];
+
       return {
         ...state,
-        activeHeroes,
         characters,
         roles,
-        config: config
+        config,
+        activeHeroes,
+        heroHistory
       };
     case StateActions.SET_ACTIVE_HEROES:
       return {

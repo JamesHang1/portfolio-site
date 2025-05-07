@@ -23,8 +23,8 @@ const HeroHistory = ({ className = '' }: { className?: string }) => {
     return (
         <div className={className}>
             <h4 className="text-bold text-2xl font-bold">History:</h4>
-            <ul>
-                {nonRepeatList.slice(1).map((name, i) => <li key={name + i}>&bull; {name}</li>)}
+            <ul className="max-sm:max-h-[49vw] overflow-y-auto">
+                {nonRepeatList.slice(1).map((name, i) => <li key={name + i}>&bull; {name.replaceAll('_', '')}</li>)}
             </ul>
             <button
                 className="px-2 py-1 mt-4 bg-black border-white hover:bg-blue-950 text-white border-2 rounded-s hover:border-gray-500 transition-all disabled:opacity-25 disabled:cursor-not-allowed"

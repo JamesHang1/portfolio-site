@@ -13,8 +13,8 @@ const ActiveHero = ({ className = '' }: { className?: string }) => {
 
     return (
         <div className={className}>
-            <h2 className="font-bold text-4xl">{activeHeroName?.replaceAll('_', '')}</h2>
-            {currentHero && <Image className="mt-2 w-full border-2 border-white bg-white" width="200" height="200" src={currentHero.portraitSrc || currentHero.iconSrc} alt={currentHero.name + " portrait"} />}
+            {currentHero && <Image priority loading="eager" className="w-full border-2 border-white bg-white" width="300" height="300" src={currentHero.portraitSrc || currentHero.iconSrc} alt={currentHero.name + " portrait"} />}
+            <h2 className="min-h-20 my-4 font-bold text-center text-3xl md:text-4xl">{activeHeroName?.replaceAll('_', '')}</h2>
         </div>
     );
 };

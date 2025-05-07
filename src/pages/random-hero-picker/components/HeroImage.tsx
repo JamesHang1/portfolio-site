@@ -24,7 +24,7 @@ const HeroImage = (
 
     return (
         <button
-            className={`group relative w-fit sm:w-full box-shad hover:drop-shadow-[0_0_6px_white] rounded-sm flex flex-row items-center shrink-0 text-nowrap font-medium md:transition-all overflow-hidden cursor-pointer border-r-4 ${isActive ? 'bg-white text-black border-green-500' : 'bg-white/50 text-black/75 border-gray-400'}`}
+            className={`relative w-fit sm:w-full box-shad hover:drop-shadow-[0_0_6px_white] rounded-sm flex flex-row items-center shrink-0 text-nowrap font-medium transition-all overflow-hidden cursor-pointer border-r-4 ${isActive ? 'bg-white text-black border-green-500' : 'bg-white/50 text-black/75 border-gray-400'}`}
             onClick={toggleHero}
         >
             <Image

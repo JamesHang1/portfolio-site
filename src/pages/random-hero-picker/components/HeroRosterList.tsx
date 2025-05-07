@@ -20,8 +20,8 @@ export default function HeroRosterList({ roster }: { roster: Roster[] }) {
 
     return (
         <div>
-            <div className="pb-4 md:flex md:gap-2 md:items-center">
-                <div className="flex gap-2 items-center">
+            <div className="flex flex-col pb-4 gap-1 items-center sm:max-md:items-start md:flex-row md:gap-2">
+                <div className="flex gap-2 items-center max-md:text-center">
                     {roleConfig?.roleIcon && <Image className="w-5 h-5" width={20} height={20} src={roleConfig.roleIcon} alt={roleConfig.id + ' icon'} aria-hidden />}
                     <h3 className="font-bold text-2xl">{roleConfig?.displayNamePlural || "Heroes"}</h3>
                 </div>
@@ -42,7 +42,7 @@ export default function HeroRosterList({ roster }: { roster: Roster[] }) {
                     </button>
                 </div>
             </div>
-            <ul className="max-sm:flex max-sm:flex-wrap sm:grid sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-4">
+            <ul className=" gap-4 max-sm:flex max-sm:flex-wrap max-sm:justify-center sm:grid sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                 {roster.map((heroProps) => (
                     <li key={heroProps.name} className="">
                         <HeroImage {...heroProps} />
